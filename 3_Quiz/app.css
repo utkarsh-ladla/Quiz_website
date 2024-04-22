@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url(img/pexels-padrinan-1111318.jpg);
+  background-size: cover;
+}
+.main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+#display-score {
+  margin-bottom: 40px; /* Adding some margin below the score */
+  margin-top: 50px;
+  font-size: 2rem;
+}
+
+.timer{
+    height: 150px;
+    width: 150px;
+    font-size: 6rem;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    /* border: 1px solid black; */
+   
+}
+
+
+.btn-container {
+  display: flex;
+}
+
+.btn {
+  height: 70px;
+  width: 300px; /* Adjusted width to fit two buttons in a row */
+  border-radius: 25px;
+  margin: 5px;
+  border-style: none;
+  background-color: #E44D95;
+  font-size: 1.5rem;
+  color: white;
+  
+}
+
+.btn:hover{
+  background-color: white;
+  color: #E44D95;
+  border: 5px solid #E44D95;
+}
+
+.btn-container{
+  /* justify-content: space-between; */
+  margin-bottom: 2rem;
+  gap: 2rem;
+  
+ 
+}
+#content{
+  margin: 40px;
+  color: white;
+  font-size: 3.0rem;
+  z-index: 9999;
+}
+
+#result{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top:50vh ;
+  font-size: 1.5rem;
+  /* color: #E44D95; */
+}
